@@ -5,14 +5,15 @@
           border-radius: $radius;
 }
 @mixin transforms($attribute){
-	-webkit-transforms: $attribute;
+  -webkit-transforms: $attribute;
      -moz-transforms: $attribute;
       -ms-transforms: $attribute;
-          transforms: $attribute;	
+          transforms: $attribute; 
 }
 @mixin transition($transition){
-	-webkit-transition: $transition;
+  -webkit-transition: $transition;
      -moz-transition: $transition;
       -ms-transition: $transition;
-          transition: $transition;	
+          transition: $transition;  
 }
+

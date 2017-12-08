@@ -1,8 +1,8 @@
 %clearfix {
-	&::after {
-		clear: both;
-		content: '';
-		display: block;
-		height: 0;
-	}
+  &::after {
+    clear: both;
+    content: '';
+    display: block;
+    height: 0;
+  }
 }
