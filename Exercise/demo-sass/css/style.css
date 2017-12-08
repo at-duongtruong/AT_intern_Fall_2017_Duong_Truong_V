@@ -79,3 +79,4 @@ body:before {
   white-space: pre;
   font-family: monospace;
   content: "Error: Invalid CSS after \"$front-title\": expected selector or at-rule, was \":\"\A         on line 2 of css/sass/base/_variable.scss\A         from line 2 of css/sass/base/all.scss\A         from line 1 of css/sass/style.scss\A \A 1: $front-body:Arial\A 2: $front-title:\A 3: body {\A 4:   font: 100% $font-stack;\A 5:   color: $primary-color;\A 6: }\A 7: color{"; }
+  
