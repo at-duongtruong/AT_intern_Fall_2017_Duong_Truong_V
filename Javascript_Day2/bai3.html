@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bai3</title>
+</head>
+<body>
+  <script type="text/javascript">
+    function bai3(str) {
+      str = str.trim();
+      let res = str[0].toUpperCase();
+      for(let i = 1; i < str.length; i++) {
+        if(str[i] != '' && str[i - 1] === ' ') {
+          res += str[i].toUpperCase();
+        }
+        else res += str[i];
+      }
+      return res;
+    }
+    console.log(bai3('im a super coder'));
+  </script>
+</body>
+</html>

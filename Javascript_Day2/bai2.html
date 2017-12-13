@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bai2</title>
+</head>
+<body>
+  <script type="text/javascript">
+    function bai2(str) {
+     let res = "";
+     for(let i = 0; i < str.length; i++) {
+       let check = true;
+       for(let j = i - 1; j >= 0; j--) {
+        if(str[j] === str[i]) {
+         check = false;
+         break;
+       }
+     }
+     if(check) {
+       res += str[i];
+     }
+   }
+   return res;
+ }
+ console.log(bai2('absdasdddaa'));
+</script>
+</body>
+</html>
