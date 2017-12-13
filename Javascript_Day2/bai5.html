@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bai5</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function bai5(arr1, arr2){
+      let count = arr1.length;
+      let count2 = arr2.length;
+      let arr3 = arr2;
+      for (let i = 0; i < count; i++) {
+        let check = true;
+        for (let j = 0; j < count2; j++) {
+         	if(arr1[i] === arr2[j]) {
+            check = false;
+            break;
+          }
+        }
+        if(check) {
+          arr3.push(arr1[i]);
+        }
+      }
+      return arr3.sort();
+    }
+  let arr1 = [1, 3, 2];
+  let arr2 = [2, 30, 1];
+  console.log(bai5(arr1, arr2));
+	</script>
+</body>
+</html>
