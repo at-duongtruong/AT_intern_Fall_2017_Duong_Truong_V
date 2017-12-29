@@ -1,0 +1,45 @@
+@import 'reset';
+body {
+  font: 100% Helvetica, sans-serif;
+  background-color : #ffffff;
+  width: 100%;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+h2 {
+  font-family: 'Zeyada';
+  font-size: 45px;
+  color: #8cc0d1;
+}
+p {
+  font-family: "open sans";
+  font-size: 16px;
+}
+article {
+  margin-bottom: 100px;
+}
+h4 {
+  color: #8cc0d1;
+}
+
+span {
+  display: block;
+}
+article {
+  border: 1px solid #f0eff0;
+  width : 100%;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'open sans';
+  color: #333;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+}

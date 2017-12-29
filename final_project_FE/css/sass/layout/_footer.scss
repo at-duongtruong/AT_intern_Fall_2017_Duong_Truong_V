@@ -1,0 +1,121 @@
+.footer {    
+  background-image: url("../images/footer/footer-top-overlay.png"),url("../images/footer/footer-bottom-right.png"),url("../images/footer/footer-bottom-bg.jpg");
+  background-repeat: repeat-x,no-repeat,repeat-x;
+  background-position: left top,right bottom,left top;
+  background-size: 3000px 48px,1500px 422px,auto 100%;
+  background-clip: border-box,border-box,padding-box;
+  background-origin: border-box,border-box,padding-box;
+  border-top: 10px solid transparent;
+  text-align: center;
+  margin-top: 30px;
+  .section-footer {
+    width: 21%;
+    display:inline-block;
+    text-align: left;
+    float: left;
+    margin-right: 30px;
+  }
+  .container {
+    padding-top:50px;
+    height: 400px;
+    padding-left: 80px;
+    margin-top: 25px;
+  }
+
+}
+.col-2 {
+  margin-bottom: 0px;
+}
+.section-footer {
+  h2 {
+    margin-bottom: -20px;
+    color: #666666;
+    margin-bottom: 2px;
+  }
+  p {
+    font-family: $font-text;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  a {
+    font-size: 14px;
+  }
+  input {
+    height: 40px;
+    margin-top: 20px;
+    border: 2px solid #fff;
+    width: 90%;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding-left: 5px;
+
+  }
+  .submit {
+    background-color: #fff;
+    width: 60%;
+    height: 45px;
+    font-family: 'Zeyada';
+    font-size: 30px;
+  }
+  .icon{
+    .dtbaker-social_icons-list__item{
+      display: inline-block;
+      padding: 5px;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      padding: 2px;
+      margin-right: 20px;
+    }
+  }
+  .Newsletter-bottom {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    img {
+      background-color: white;
+      height: 40px;
+      padding:10px;
+    }
+    .Newsletter-bottom-item {
+      box-sizing: border-box;
+      padding:10px 5px;
+      background-color: #4a90e2;
+      //border: 2px solid red;
+      display: inline-block;
+      height: 60px;
+      width: 179px;
+      color: white;
+    }
+    li {
+      display: inline-block;
+      a{
+        color: white;
+        font-size: 11px;
+      }
+    }
+  }
+  .link-list{
+    margin-top: -8px;
+    a{
+      margin-left: 5px;
+      line-height: 3;
+      &::before{
+        content: '>';
+        left: 0;
+        padding-right: 9px;
+        top: 3px;
+        font-size: .8em;
+      }
+    }
+  }
+  .submit-form{
+    margin-top: -13px;
+  }
+  .icon i{
+    color:#fff;
+  }
+  .icon li{
+    background-color: black;
+  }
+}

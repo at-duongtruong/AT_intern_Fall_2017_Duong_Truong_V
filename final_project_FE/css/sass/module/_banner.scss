@@ -1,0 +1,30 @@
+.banner{
+  position: relative;
+  margin-bottom : 50px;
+  text-align: center;
+  width: 100%;
+  &:before{
+    background: url("../images/banner-overlay-top-tile.png") no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: '';
+    z-index: 1;
+    height: 96px;
+    top: 0;
+    width: 100%;
+  }
+  &:after{
+    content: '';    
+    background: url("../images/banner-overlay-bottom-tile.png") no-repeat;
+    height: 120px;
+    bottom: 0;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    left: 0;
+  }
+  img{
+    width: 100%;
+  }
+}
