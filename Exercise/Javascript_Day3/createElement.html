@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>createElement</title>
+  </head>
+  <body>
+    <button onclick="myFunction()">Click me</button>
+    <script type="text/javascript">
+      function myFunction(){
+        let p = document.createElement("p");
+        p.innerHTML = 'vi du ve createElement'
+        document.getElementsByTagName('body')[0].appendChild(p);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>appendChild</title>
+</head>
+<body>
+  <ul id="myList1">
+    <li>Banh My</li>
+    <li>Banh Tieu</li>
+  </ul>
+  <ul id="myList2">
+    <li>Banh Dua</li>
+    <li>Banh Ram</li>
+  </ul>
+  <button onclick = "myFunction()" >Click me</button>
+  <script type="text/javascript">
+    function myFunction(){
+      let node = document.getElementById('myList2').lastChild;
+      document.getElementById('myList1').appendChild(node);
+    }
+  </script>
+</body>
+</html>

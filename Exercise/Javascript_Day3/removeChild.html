@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>removeChild</title>
+</head>
+<body>
+  <ul id = "myList">
+    <li>Banh Trang</li>
+    <li>Banh Tieu</li>
+    <li>Banh Dua</li>
+    <li>Banh Chuoi Chien</li>
+  </ul>
+  <button onclick = "myFunction()">Click me</button>
+  <script type="text/javascript">
+    function myFunction() {
+      let list = document.getElementById('myList');
+      list.removeChild(list.childNodes[0]);
+    }
+  </script>
+</body>
+</html>

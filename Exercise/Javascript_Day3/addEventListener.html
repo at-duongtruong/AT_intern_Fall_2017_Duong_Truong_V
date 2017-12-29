@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>addEventListener</title>
+</head>
+<body>
+	<p>Vi du ve addEventListener su dung button</p>
+	<button id="mybt">Click</button>
+	<p id="demo"></p>
+	<script type="text/javascript">
+		document.getElementById('mybt').addEventListener('click',function(){
+		document.getElementById('demo').innerHTML = 'Hello addEventListener';
+		});
+	</script>
+</body>
+</html>

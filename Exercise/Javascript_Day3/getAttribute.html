@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+  </head>
+  <body>
+    <h1 class="democlass">Hello World</h1>
+    <button onclick="myFunction()">Try it</button>
+    <p id="demo"></p>
+    <script>
+      function myFunction() {
+      let x = document.getElementsByTagName('H1')[0].getAttribute('class');
+      document.getElementById('demo').innerHTML = x;
+      }
+    </script>
+  </body>
+</html>
